@@ -22,9 +22,12 @@ async def on_message(message: cl.Message):
     # Get user mesaage
     user_message = message.content
     # Create the LLM object
-    llm = ChatOllama(model=MODEL, base_url=OLLAMA_URL)
+    # ADD YOUR CODE HERE
+    #
     # Invoke the LLM
-    ret = llm.invoke(user_message)
-    msg = cl.Message(content=ret.content)
-    await msg.send()
+    # ADD YOUR CODE HERE
+    #
+    # Return the response
+    # msg = cl.Message(content=ret.content)
+    # await msg.send()
 
